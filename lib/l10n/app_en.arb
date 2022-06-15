@@ -1,0 +1,91 @@
+{
+    "@@locale": "en",
+    "introPageTitle" : "Transform your habits with Habitonic",
+    "introPageDesc" : "Small improvements accumulate into such remarkable results if you opt to be patient.",
+    "introPageButtonText" : "Got it!",
+    "englishLang" : "English",
+    "englishLangLocale" : "en",
+    "frenchLang" : "French",
+    "frenchLangLocale" : "fr",
+    "homePageTitle" : "Let's make it habit together 👏",
+    "homeProgressBoxTitleWithLessProgress" : "Your daily goals almost done! 🔥\n\n",
+    "homeProgressBoxTitleWithMoreProgress" : "You are far from your purpose! 😥\n\n",
+    "homeProgressBoxTitleWithNoProgress" : "You have no habits for today! 🔥",
+    "homeProgressBoxDesc": "{completed} of {all} completed",
+    "@homeProgressBoxDesc": {
+    "placeholders": {
+      "completed": {
+        "type": "int",
+        "example": "2"
+        },
+      "all": {
+        "type": "int",
+        "example": "10"
+        }
+      }
+    },
+    "homeTodayHabitsTitle" : "Today Habits",
+    "homeNoTodayHabitsTitle" : "No Habits",
+    "homeTodayHabitsItemDesc": "Repeat {repeat} times",
+    "@homeTodayHabitsItemDesc": {
+    "placeholders": {
+      "repeat": {
+        "type": "int?",
+        "example": "2"
+        }
+      }
+    },
+    "homeNewHabitButtonText" : "New Habits",
+    "newHabitModalSheetFormNameTitle" : "Name your habit",
+    "newHabitModalSheetFormNameHintText" : "Read a book for 15 minutes",
+    "newHabitModalSheetFormEmojiTitle" : "Pick an icon for your habit",
+    "newHabitModalSheetFormRepetitionTitle" : "How many times would you like to repeat your habit?",
+    "newHabitModalSheetFormCreateHabitButtonText" : "Create a habit",
+    "habitDetailsCurrentStreakTitle" : "Current streak",
+    "habitDetailsRepeatTimesTitle" : "Repeat times",
+    "habitDetailsRepeatTimesText": "{repeat} times",
+    "@habitDetailsRepeatTimesText": {
+    "placeholders": {
+      "repeat": {
+        "type": "int",
+        "example": "2"
+        }
+      }
+    },
+    "habitDetailsBarChartTitle" : "Check-in Daytime",
+    "habitDetailsBarChartMorningBarText" : "Morning",
+    "habitDetailsBarChartAfternoonBarText" : "Afternoon",
+    "habitDetailsBarChartEveningBarText" : "Evening",
+    "habitDetailsBarChartNightBarText" : "Night",
+    "habitDetailsToolTipContentDesc": "{done} out of {all}",
+    "@habitDetailsToolTipContentDesc": {
+    "placeholders": {
+      "done": {
+        "type": "int?",
+        "example": "2"
+        },
+      "all": {
+        "type": "int?",
+        "example": "10"
+        }
+      }
+    },
+    "refreshHabitDataModalBottomSheetTitle" : "Renew Habits",
+    "refreshHabitDataModalBottomSheetDesc" : "This will renew the current variety of Habits. Use it if you don't like the current variety",
+    "refreshHabitDataModalBottomSheetRenewHabitsButtonText" : "RENEW HABITS",
+    "refreshHabitDataModalBottomSheetCancelButtonText" : "CANCEL",
+    "errorPageTitle" : "I have bad news for you",
+    "errorPageDesc" : "The page you are looking for might be removed or some error happened. Maybe something has broken this page. Come back to the homepage.",
+    "errorPageBackToHomeButtonText" : "Back to Home",
+    "completeHabitsSuccessModalBottomSheetTitle" : "Successfully Done",
+    "completeHabitsSuccessModalBottomSheetSubtitle" : "Hurrah!",
+    "completeHabitsSuccessModalBottomSheetDesc" : "You completed this habit",
+    "completeHabitsSuccessModalBottomSheetGoBackButtonText" : "Go back",
+    "customTimeIndicatorNow" : "now",
+    "customTimeIndicatorMinute" : "minute",
+    "customTimeIndicatorMinutes" : "minutes",
+    "customTimeIndicatorHours" : "hours",
+    "customTimeIndicatorDays" : "days",
+    "customTimeIndicatorMonths" : "months",
+    "customTimeIndicatorYears" : "years"
+}

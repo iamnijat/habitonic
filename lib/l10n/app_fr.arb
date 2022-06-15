@@ -1,0 +1,91 @@
+{
+    "@@locale": "fr",
+    "introPageTitle" : "Transformez vos habitudes avec Habitonic",
+    "introPageDesc" : "De petites améliorations s'accumulent dans des résultats aussi remarquables si vous choisissez d'être patient.",
+    "introPageButtonText" : "J'ai compris!",
+    "englishLang" : "Anglais",
+    "englishLangLocale" : "en",
+    "frenchLang" : "Français",
+    "frenchLangLocale" : "fr",
+    "homePageTitle" : "Transformez l'habitude ensemble 👏",
+    "homeProgressBoxTitleWithLessProgress" : "Vos objectifs quotidiens presque atteints ! 🔥\n\n",
+    "homeProgressBoxTitleWithMoreProgress" : "Vous êtes loin de votre but! 😥\n\n",
+    "homeProgressBoxTitleWithNoProgress" : "Vous n'avez pas d'habitudes pour aujourd'hui ! 🔥",
+    "homeProgressBoxDesc": "{completed} de {all} complété",
+    "@homeProgressBoxDesc": {
+    "placeholders": {
+      "completed": {
+        "type": "int",
+        "example": "2"
+        },
+      "all": {
+        "type": "int",
+        "example": "10"
+        }
+      }
+    },
+    "homeTodayHabitsTitle" : "Habitudes d'aujourd'hui",
+    "homeNoTodayHabitsTitle" : "Pas d'habitudes",
+    "homeTodayHabitsItemDesc": "Répéter {repeat} fois",
+    "@homeTodayHabitsItemDesc": {
+    "placeholders": {
+      "repeat": {
+        "type": "int?",
+        "example": "2"
+        }
+      }
+    },
+    "homeNewHabitButtonText" : "Nouveau",
+    "newHabitModalSheetFormNameTitle" : "Nommez votre habitude",
+    "newHabitModalSheetFormNameHintText" : "Lisez un livre pendant 15 minutes",
+    "newHabitModalSheetFormEmojiTitle" : "Choisissez une icône pour votre habitude",
+    "newHabitModalSheetFormRepetitionTitle" : "Combien de fois aimeriez-vous répéter votre habitude?",
+    "newHabitModalSheetFormCreateHabitButtonText" : "Créez une habitude",
+    "habitDetailsCurrentStreakTitle" : "Série actuelle",
+    "habitDetailsRepeatTimesTitle" : "Fois de répétition",
+    "habitDetailsRepeatTimesText": "{repeat} fois",
+    "@habitDetailsRepeatTimesText": {
+    "placeholders": {
+      "repeat": {
+        "type": "int",
+        "example": "2"
+        }
+      }
+    },
+    "habitDetailsBarChartTitle" : "Enregistrement en journée",
+    "habitDetailsBarChartMorningBarText" : "Matin",
+    "habitDetailsBarChartAfternoonBarText" : "Après midi",
+    "habitDetailsBarChartEveningBarText" : "Soir",
+    "habitDetailsBarChartNightBarText" : "Nuit",
+    "habitDetailsToolTipContentDesc": "{done} hors de {all}",
+    "@habitDetailsToolTipContentDesc": {
+    "placeholders": {
+      "done": {
+        "type": "int?",
+        "example": "2"
+        },
+      "all": {
+        "type": "int?",
+        "example": "10"
+        }
+      }
+    },
+    "refreshHabitDataModalBottomSheetTitle" : "Renouveler les habitudes",
+    "refreshHabitDataModalBottomSheetDesc" : "Cela renouvellera la variété actuelle des Habitudes. Utilisez-le si vous n'aimez pas la variété actuelle",
+    "refreshHabitDataModalBottomSheetRenewHabitsButtonText" : "RENOUVELER",
+    "refreshHabitDataModalBottomSheetCancelButtonText" : "ANNULEZ",
+    "errorPageTitle" : "J'ai une mauvaise nouvelle pour toi",
+    "errorPageDesc" : "La page que vous recherchez a peut-être été supprimée ou une erreur s'est produite. Peut-être que quelque chose a cassé cette page. Revenez à la page d'accueil.",
+    "errorPageBackToHomeButtonText" : "De retour à la maison",
+    "completeHabitsSuccessModalBottomSheetTitle" : "Fait avec succès",
+    "completeHabitsSuccessModalBottomSheetSubtitle" : "Hourra!",
+    "completeHabitsSuccessModalBottomSheetDesc" : "Vous avez terminé cette habitude",
+    "completeHabitsSuccessModalBottomSheetGoBackButtonText" : "Retournez",
+    "customTimeIndicatorNow" : "à présent",
+    "customTimeIndicatorMinute" : "minute",
+    "customTimeIndicatorMinutes" : "minutes",
+    "customTimeIndicatorHours" : "heures",
+    "customTimeIndicatorDays" : "jours",
+    "customTimeIndicatorMonths" : "mois",
+    "customTimeIndicatorYears" : "ans"
+}
