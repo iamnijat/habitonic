@@ -3,15 +3,15 @@
     "introPageTitle" : "Habitonic ile alışkanlıklarınızı değiştirin!",
     "introPageDesc" : "Small improvements accumulate into such remarkable results if you opt to be patient.",
     "introPageButtonText" : "Got it!",
-    "englishLang" : "English",
+    "englishLang" : "İngilizce",
     "englishLangLocale" : "en",
-    "frenchLang" : "French",
+    "frenchLang" : "Fransızca",
     "frenchLangLocale" : "fr",
     "homePageTitle" : "Let's make it habit together 👏",
     "homeProgressBoxTitleWithLessProgress" : "Your daily goals almost done! 🔥\n\n",
     "homeProgressBoxTitleWithMoreProgress" : "You are far from your purpose! 😥\n\n",
     "homeProgressBoxTitleWithNoProgress" : "You have no habits for today! 🔥",
-    "homeProgressBoxDesc": "{completed} of {all} completed",
+    "homeProgressBoxDesc": "{all} alışkanlığın {completed} tanesi tamamlandı.",
     "@homeProgressBoxDesc": {
     "placeholders": {
       "completed": {
@@ -24,8 +24,8 @@
         }
       }
     },
-    "homeTodayHabitsTitle" : "Today Habits",
-    "homeNoTodayHabitsTitle" : "No Habits",
+    "homeTodayHabitsTitle" : "Bugünkü Alışkanlıklar",
+    "homeNoTodayHabitsTitle" : "Alışkanlık Yok",
     "homeTodayHabitsItemDesc": "Repeat {repeat} times",
     "@homeTodayHabitsItemDesc": {
     "placeholders": {
