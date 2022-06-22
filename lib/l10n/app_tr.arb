@@ -7,6 +7,8 @@
     "englishLangLocale" : "en",
     "frenchLang" : "Fransızca",
     "frenchLangLocale" : "fr",
+    "turkishLang" : "Türkçe",
+    "turkishLangLocale" : "tr",
     "homePageTitle" : "Haydi, birlikte bir alışkanlığa dönüştürelim. 👏",
     "homeProgressBoxTitleWithLessProgress" : "Bugün yapılması gereken alışkanlıklar neredeyse bitti! 🔥\n\n",
     "homeProgressBoxTitleWithMoreProgress" : "Hedefine ulaşmak için katetmen gereken uzun bir yol var! 😥\n\n",
