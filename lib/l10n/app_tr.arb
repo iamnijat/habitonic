@@ -1,7 +1,7 @@
 {
     "@@locale": "tr",
     "introPageTitle" : "Habitonic ile alışkanlıklarınızı değiştirin!",
-    "introPageDesc" : "Small improvements accumulate into such remarkable results if you opt to be patient.",
+    "introPageDesc" : "Sabırlı olursanız küçük değişiklikler devasa başarılara dönüşebilir.",
     "introPageButtonText" : "Anladım!",
     "englishLang" : "İngilizce",
     "englishLangLocale" : "en",
@@ -18,16 +18,16 @@
         "type": "int",
         "example": "2"
         },
-      "all": {ikon türkçe alternatif
+      "all": {
         "type": "int",
         "example": "10"
         }
-      }
+      }",
     },
     "homeTodayHabitsTitle" : "Bugünkü Alışkanlıklar",
     "homeNoTodayHabitsTitle" : "Alışkanlık Yok",
-    "homeTodayHabitsItemDesc": "Repeat {repeat} times",
-    "@homeTodayHabitsItemDesc": {
+    "homeTodayHabitsItemDesc": "{repeat} kere tekrarla",
+    "@homeTodayHabitsItemDesc": {",
     "placeholders": {
       "repeat": {
         "type": "int?",
@@ -37,13 +37,13 @@
     },
     "homeNewHabitButtonText" : "Yeni Alışkanlıklar",
     "newHabitModalSheetFormNameTitle" : "Alışkanlığınızı adlandırın",
-    "newHabitModalSheetFormNameHintText" : "Read a book for 15 minutes",
+    "newHabitModalSheetFormNameHintText" : "15 dakika boyunca kitap oku",
     "newHabitModalSheetFormEmojiTitle" : "Alışkanlığınız için bir simge seçin.",
-    "newHabitModalSheetFormRepetitionTitle" : "How many times would you like to repeat your habit?",
+    "newHabitModalSheetFormRepetitionTitle" : "Alışkanlığı ne kadar kez tekrar etmek istiyorsunuz?",
     "newHabitModalSheetFormCreateHabitButtonText" : "Alışkanlığı oluşturun",
-    "habitDetailsCurrentStreakTitle" : "Current streak",
-    "habitDetailsRepeatTimesTitle" : "Repeat times",
-    "habitDetailsRepeatTimesText": "{repeat} times",
+    "habitDetailsCurrentStreakTitle" : "Mevcut başarı",
+    "habitDetailsRepeatTimesTitle" : "Kere tekrarla",
+    "habitDetailsRepeatTimesText": "{repeat} kere tekrarla",
     "@habitDetailsRepeatTimesText": {
     "placeholders": {
       "repeat": {
@@ -52,12 +52,12 @@
         }
       }
     },
-    "habitDetailsBarChartTitle" : "Check-in Daytime",
+    "habitDetailsBarChartTitle" : "Günlük Giriş",
     "habitDetailsBarChartMorningBarText" : "Sabah",
     "habitDetailsBarChartAfternoonBarText" : "Öğle",
     "habitDetailsBarChartEveningBarText" : "Akşam",
     "habitDetailsBarChartNightBarText" : "Gece",
-    "habitDetailsToolTipContentDesc": "{done} out of {all}",
+    "habitDetailsToolTipContentDesc": "{all} alışkanlığın {done} tanesi tamamlandı",
     "@habitDetailsToolTipContentDesc": {
     "placeholders": {
       "done": {
@@ -70,22 +70,22 @@
         }
       }
     },
-    "refreshHabitDataModalBottomSheetTitle" : "Renew Habits",
-    "refreshHabitDataModalBottomSheetDesc" : "This will renew the current variety of Habits. Use it if you don't like the current variety",
-    "refreshHabitDataModalBottomSheetRenewHabitsButtonText" : "RENEW HABITS",
-    "refreshHabitDataModalBottomSheetCancelButtonText" : "CANCEL",
-    "errorPageTitle" : "I have bad news for you",
-    "errorPageDesc" : "The page you are looking for might be removed or some error happened. Maybe something has broken this page. Come back to the homepage.",
-    "errorPageBackToHomeButtonText" : "Back to Home",
-    "completeHabitsSuccessModalBottomSheetTitle" : "Successfully Done",
-    "completeHabitsSuccessModalBottomSheetSubtitle" : "Hurrah!",
-    "completeHabitsSuccessModalBottomSheetDesc" : "You completed this habit",
-    "completeHabitsSuccessModalBottomSheetGoBackButtonText" : "Go back",
-    "customTimeIndicatorNow" : "now",
-    "customTimeIndicatorMinute" : "minute",
-    "customTimeIndicatorMinutes" : "minutes",
-    "customTimeIndicatorHours" : "hours",
-    "customTimeIndicatorDays" : "days",
-    "customTimeIndicatorMonths" : "months",
-    "customTimeIndicatorYears" : "years"
+    "refreshHabitDataModalBottomSheetTitle" : "Alışkanlıkları Yenile",
+    "refreshHabitDataModalBottomSheetDesc" : "Buradan alışkanlıklarınızın çeşitliliğini yenileyebilirsiniz. Lütfen sadece mevcut alışkanlık çeşitliliği hoşunuza gitmiyorsa kullanın.",
+    "refreshHabitDataModalBottomSheetRenewHabitsButtonText" : "ALIŞKANLIKLARI YENİLE",
+    "refreshHabitDataModalBottomSheetCancelButtonText" : "İPTAL ET",
+    "errorPageTitle" : "Kötü bir haberim var",
+    "errorPageDesc" : "Aradığınız sayfa ya silindi ya da bir hata meydana geldi. Belki bir şey bu sayfanın bozulmasına neden olmuş olabilir. Anasayfaya geri dön..",
+    "errorPageBackToHomeButtonText" : "Anasayfaya dön",
+    "completeHabitsSuccessModalBottomSheetTitle" : "Başarıyla yapıldı",
+    "completeHabitsSuccessModalBottomSheetSubtitle" : "Oley!",
+    "completeHabitsSuccessModalBottomSheetDesc" : "Bu alışkanlığı tamamladın",
+    "completeHabitsSuccessModalBottomSheetGoBackButtonText" : "Geri Dön",
+    "customTimeIndicatorNow" : "şimdi",
+    "customTimeIndicatorMinute" : "dakika",
+    "customTimeIndicatorMinutes" : "dakika",
+    "customTimeIndicatorHours" : "saat",
+    "customTimeIndicatorDays" : "gün",
+    "customTimeIndicatorMonths" : "ay",
+    "customTimeIndicatorYears" : "yıl"
 }
