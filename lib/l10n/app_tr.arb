@@ -2,15 +2,15 @@
     "@@locale": "tr",
     "introPageTitle" : "Habitonic ile alışkanlıklarınızı değiştirin!",
     "introPageDesc" : "Small improvements accumulate into such remarkable results if you opt to be patient.",
-    "introPageButtonText" : "Got it!",
+    "introPageButtonText" : "Anladım!",
     "englishLang" : "İngilizce",
     "englishLangLocale" : "en",
     "frenchLang" : "Fransızca",
     "frenchLangLocale" : "fr",
-    "homePageTitle" : "Let's make it habit together 👏",
-    "homeProgressBoxTitleWithLessProgress" : "Your daily goals almost done! 🔥\n\n",
-    "homeProgressBoxTitleWithMoreProgress" : "You are far from your purpose! 😥\n\n",
-    "homeProgressBoxTitleWithNoProgress" : "You have no habits for today! 🔥",
+    "homePageTitle" : "Haydi, birlikte bir alışkanlığa dönüştürelim. 👏",
+    "homeProgressBoxTitleWithLessProgress" : "Bugün yapılması gereken alışkanlıklar neredeyse bitti! 🔥\n\n",
+    "homeProgressBoxTitleWithMoreProgress" : "Hedefine ulaşmak için katetmen gereken uzun bir yol var! 😥\n\n",
+    "homeProgressBoxTitleWithNoProgress" : "Bugün için alışkanlık yok! 🔥",
     "homeProgressBoxDesc": "{all} alışkanlığın {completed} tanesi tamamlandı.",
     "@homeProgressBoxDesc": {
     "placeholders": {
@@ -18,7 +18,7 @@
         "type": "int",
         "example": "2"
         },
-      "all": {
+      "all": {ikon türkçe alternatif
         "type": "int",
         "example": "10"
         }
