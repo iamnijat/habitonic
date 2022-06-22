@@ -18,6 +18,11 @@ abstract class LanguagesUtil {
         name: _localization.frenchLang,
         image: AppImages.frFlag,
       ),
+      LanguageViewModel(
+        languageCode: _localization.turkishLangLocale,
+        name: _localization.turkishLang,
+        image: AppImages.trFlag,
+      ),
     ];
   }
 }

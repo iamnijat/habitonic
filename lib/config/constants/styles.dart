@@ -11,9 +11,9 @@ abstract class AppStyles {
   static const notoSansRegularFontFamily = "Noto Sans";
   static const poppinsRegularFontFamily = "Poppins";
 
-  static final mainHeadlineColor20spw700PoppinsLineHeight = TextStyle(
+  static final mainHeadlineColor18spw700PoppinsLineHeight = TextStyle(
     color: AppPalette.mainHeadlineColor,
-    fontSize: 20.sp,
+    fontSize: 18.sp,
     height: 1.8,
     letterSpacing: 1.3,
     fontWeight: FontWeight.bold,
@@ -188,10 +188,10 @@ abstract class AppStyles {
       fontWeight: FontWeight.bold,
       fontSize: 11.sp);
 
-  static final whiteColor13spw600MontserratLineHeight = TextStyle(
+  static final whiteColor12spw600MontserratLineHeight = TextStyle(
     color: AppPalette.whiteColor,
     fontFamily: montserratRegularFontFamily,
-    fontSize: 13.sp,
+    fontSize: 12.sp,
     height: 1.5,
     fontWeight: FontWeight.w600,
   );

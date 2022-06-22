@@ -8,7 +8,7 @@ class HomeTitle extends StatelessWidget {
   Widget build(BuildContext context) {
     return Text(
       _localization.homePageTitle,
-      style: AppStyles.mainHeadlineColor20spw700PoppinsLineHeight,
+      style: AppStyles.mainHeadlineColor18spw700PoppinsLineHeight,
     );
   }
 }
