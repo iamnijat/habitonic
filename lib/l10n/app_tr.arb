@@ -1,6 +1,6 @@
 {
     "@@locale": "tr",
-    "introPageTitle" : "Transform your habits with Habitonic",
+    "introPageTitle" : "Habitonic ile alışkanlıklarınızı değiştirin!",
     "introPageDesc" : "Small improvements accumulate into such remarkable results if you opt to be patient.",
     "introPageButtonText" : "Got it!",
     "englishLang" : "English",
@@ -35,12 +35,12 @@
         }
       }
     },
-    "homeNewHabitButtonText" : "New Habits",
-    "newHabitModalSheetFormNameTitle" : "Name your habit",
+    "homeNewHabitButtonText" : "Yeni Alışkanlıklar",
+    "newHabitModalSheetFormNameTitle" : "Alışkanlığınızı adlandırın",
     "newHabitModalSheetFormNameHintText" : "Read a book for 15 minutes",
-    "newHabitModalSheetFormEmojiTitle" : "Pick an icon for your habit",
+    "newHabitModalSheetFormEmojiTitle" : "Alışkanlığınız için bir simge seçin.",
     "newHabitModalSheetFormRepetitionTitle" : "How many times would you like to repeat your habit?",
-    "newHabitModalSheetFormCreateHabitButtonText" : "Create a habit",
+    "newHabitModalSheetFormCreateHabitButtonText" : "Alışkanlığı oluşturun",
     "habitDetailsCurrentStreakTitle" : "Current streak",
     "habitDetailsRepeatTimesTitle" : "Repeat times",
     "habitDetailsRepeatTimesText": "{repeat} times",
@@ -53,10 +53,10 @@
       }
     },
     "habitDetailsBarChartTitle" : "Check-in Daytime",
-    "habitDetailsBarChartMorningBarText" : "Morning",
-    "habitDetailsBarChartAfternoonBarText" : "Afternoon",
-    "habitDetailsBarChartEveningBarText" : "Evening",
-    "habitDetailsBarChartNightBarText" : "Night",
+    "habitDetailsBarChartMorningBarText" : "Sabah",
+    "habitDetailsBarChartAfternoonBarText" : "Öğle",
+    "habitDetailsBarChartEveningBarText" : "Akşam",
+    "habitDetailsBarChartNightBarText" : "Gece",
     "habitDetailsToolTipContentDesc": "{done} out of {all}",
     "@habitDetailsToolTipContentDesc": {
     "placeholders": {
