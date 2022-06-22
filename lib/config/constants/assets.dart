@@ -14,6 +14,7 @@ abstract class AppImages {
   static const filterIcon = 'assets/icons/filter_icon.svg';
   static const enFlag = 'assets/icons/flags/en_flag.svg';
   static const frFlag = 'assets/icons/flags/fr_flag.svg';
+  static const trFlag = 'assets/icons/flags/tr_flag.svg';
 
   /// Flares
   static const doneIconAnimation = 'assets/flares/done_icon.gif';

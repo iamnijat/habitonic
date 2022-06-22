@@ -8,7 +8,7 @@ class HomeProgressBoxTitle extends StatelessWidget {
   Widget build(BuildContext context) {
     return Text(
       _localization.homeProgressBoxTitleWithNoProgress,
-      style: AppStyles.whiteColor13spw600MontserratLineHeight,
+      style: AppStyles.whiteColor12spw600MontserratLineHeight,
     );
   }
 }

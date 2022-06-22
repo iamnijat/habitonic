@@ -13,7 +13,7 @@ class HomeProgressBoxDesc extends StatelessWidget {
       text: TextSpan(children: <TextSpan>[
         TextSpan(
           text: _progressTitle,
-          style: AppStyles.whiteColor13spw600MontserratLineHeight,
+          style: AppStyles.whiteColor12spw600MontserratLineHeight,
         ),
         TextSpan(
           text: _localization.homeProgressBoxDesc(_completed, _all),

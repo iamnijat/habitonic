@@ -13,7 +13,7 @@ class IntroOverview extends StatelessWidget {
           child: Text(
             _localization.introPageTitle,
             textAlign: TextAlign.center,
-            style: AppStyles.mainHeadlineColor20spw700PoppinsLineHeight,
+            style: AppStyles.mainHeadlineColor18spw700PoppinsLineHeight,
           ),
         ),
         const VerticalSpacer(2),

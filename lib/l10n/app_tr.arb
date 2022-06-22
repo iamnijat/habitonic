@@ -24,7 +24,7 @@
         "type": "int",
         "example": "10"
         }
-      }",
+      }
     },
     "homeTodayHabitsTitle" : "Bugünkü Alışkanlıklar",
     "homeNoTodayHabitsTitle" : "Alışkanlık Yok",
@@ -37,7 +37,7 @@
         }
       }
     },
-    "homeNewHabitButtonText" : "Yeni Alışkanlıklar",
+    "homeNewHabitButtonText" : "Yeni",
     "newHabitModalSheetFormNameTitle" : "Alışkanlığınızı adlandırın",
     "newHabitModalSheetFormNameHintText" : "15 dakika boyunca kitap oku",
     "newHabitModalSheetFormEmojiTitle" : "Alışkanlığınız için bir simge seçin.",
@@ -45,7 +45,7 @@
     "newHabitModalSheetFormCreateHabitButtonText" : "Alışkanlığı oluşturun",
     "habitDetailsCurrentStreakTitle" : "Mevcut başarı",
     "habitDetailsRepeatTimesTitle" : "Kere tekrarla",
-    "habitDetailsRepeatTimesText": "{repeat} kere tekrarla",
+    "habitDetailsRepeatTimesText": "{repeat} kere",
     "@habitDetailsRepeatTimesText": {
     "placeholders": {
       "repeat": {

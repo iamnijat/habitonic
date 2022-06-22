@@ -2,6 +2,7 @@ import 'package:timeago/timeago.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'custom_en_messages.dart';
 import 'custom_fr_messages.dart';
+import 'custom_tr_messages.dart';
 
 class TimeAgoUtil {
   const TimeAgoUtil._();
@@ -20,5 +21,6 @@ class TimeAgoUtil {
   static void _setCustomLocaleMessages(AppLocalizations _localization) {
     setLocaleMessages('fr', CustomFrMessages(_localization));
     setLocaleMessages('en', CustomEnMessages(_localization));
+    setLocaleMessages('tr', CustomTrMessages(_localization));
   }
 }
