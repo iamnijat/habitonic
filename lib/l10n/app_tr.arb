@@ -27,7 +27,7 @@
     "homeTodayHabitsTitle" : "Bugünkü Alışkanlıklar",
     "homeNoTodayHabitsTitle" : "Alışkanlık Yok",
     "homeTodayHabitsItemDesc": "{repeat} kere tekrarla",
-    "@homeTodayHabitsItemDesc": {",
+    "@homeTodayHabitsItemDesc": {
     "placeholders": {
       "repeat": {
         "type": "int?",
