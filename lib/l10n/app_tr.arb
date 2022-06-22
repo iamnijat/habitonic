@@ -1,0 +1,93 @@
+{
+    "@@locale": "tr",
+    "introPageTitle" : "Habitonic ile alışkanlıklarınızı değiştirin!",
+    "introPageDesc" : "Sabırlı olursanız küçük değişiklikler devasa başarılara dönüşebilir.",
+    "introPageButtonText" : "Anladım!",
+    "englishLang" : "İngilizce",
+    "englishLangLocale" : "en",
+    "frenchLang" : "Fransızca",
+    "frenchLangLocale" : "fr",
+    "turkishLang" : "Türkçe",
+    "turkishLangLocale" : "tr",
+    "homePageTitle" : "Haydi, birlikte bir alışkanlığa dönüştürelim. 👏",
+    "homeProgressBoxTitleWithLessProgress" : "Bugün yapılması gereken alışkanlıklar neredeyse bitti! 🔥\n\n",
+    "homeProgressBoxTitleWithMoreProgress" : "Hedefine ulaşmak için katetmen gereken uzun bir yol var! 😥\n\n",
+    "homeProgressBoxTitleWithNoProgress" : "Bugün için alışkanlık yok! 🔥",
+    "homeProgressBoxDesc": "{all} alışkanlığın {completed} tanesi tamamlandı.",
+    "@homeProgressBoxDesc": {
+    "placeholders": {
+      "completed": {
+        "type": "int",
+        "example": "2"
+        },
+      "all": {
+        "type": "int",
+        "example": "10"
+        }
+      }",
+    },
+    "homeTodayHabitsTitle" : "Bugünkü Alışkanlıklar",
+    "homeNoTodayHabitsTitle" : "Alışkanlık Yok",
+    "homeTodayHabitsItemDesc": "{repeat} kere tekrarla",
+    "@homeTodayHabitsItemDesc": {
+    "placeholders": {
+      "repeat": {
+        "type": "int?",
+        "example": "2"
+        }
+      }
+    },
+    "homeNewHabitButtonText" : "Yeni Alışkanlıklar",
+    "newHabitModalSheetFormNameTitle" : "Alışkanlığınızı adlandırın",
+    "newHabitModalSheetFormNameHintText" : "15 dakika boyunca kitap oku",
+    "newHabitModalSheetFormEmojiTitle" : "Alışkanlığınız için bir simge seçin.",
+    "newHabitModalSheetFormRepetitionTitle" : "Alışkanlığı ne kadar kez tekrar etmek istiyorsunuz?",
+    "newHabitModalSheetFormCreateHabitButtonText" : "Alışkanlığı oluşturun",
+    "habitDetailsCurrentStreakTitle" : "Mevcut başarı",
+    "habitDetailsRepeatTimesTitle" : "Kere tekrarla",
+    "habitDetailsRepeatTimesText": "{repeat} kere tekrarla",
+    "@habitDetailsRepeatTimesText": {
+    "placeholders": {
+      "repeat": {
+        "type": "int",
+        "example": "2"
+        }
+      }
+    },
+    "habitDetailsBarChartTitle" : "Günlük Giriş",
+    "habitDetailsBarChartMorningBarText" : "Sabah",
+    "habitDetailsBarChartAfternoonBarText" : "Öğle",
+    "habitDetailsBarChartEveningBarText" : "Akşam",
+    "habitDetailsBarChartNightBarText" : "Gece",
+    "habitDetailsToolTipContentDesc": "{all} alışkanlığın {done} tanesi tamamlandı",
+    "@habitDetailsToolTipContentDesc": {
+    "placeholders": {
+      "done": {
+        "type": "int?",
+        "example": "2"
+        },
+      "all": {
+        "type": "int?",
+        "example": "10"
+        }
+      }
+    },
+    "refreshHabitDataModalBottomSheetTitle" : "Alışkanlıkları Yenile",
+    "refreshHabitDataModalBottomSheetDesc" : "Buradan alışkanlıklarınızın çeşitliliğini yenileyebilirsiniz. Lütfen sadece mevcut alışkanlık çeşitliliği hoşunuza gitmiyorsa kullanın.",
+    "refreshHabitDataModalBottomSheetRenewHabitsButtonText" : "ALIŞKANLIKLARI YENİLE",
+    "refreshHabitDataModalBottomSheetCancelButtonText" : "İPTAL ET",
+    "errorPageTitle" : "Kötü bir haberim var",
+    "errorPageDesc" : "Aradığınız sayfa ya silindi ya da bir hata meydana geldi. Belki bir şey bu sayfanın bozulmasına neden olmuş olabilir. Anasayfaya geri dön..",
+    "errorPageBackToHomeButtonText" : "Anasayfaya dön",
+    "completeHabitsSuccessModalBottomSheetTitle" : "Başarıyla yapıldı",
+    "completeHabitsSuccessModalBottomSheetSubtitle" : "Oley!",
+    "completeHabitsSuccessModalBottomSheetDesc" : "Bu alışkanlığı tamamladın",
+    "completeHabitsSuccessModalBottomSheetGoBackButtonText" : "Geri Dön",
+    "customTimeIndicatorNow" : "şimdi",
+    "customTimeIndicatorMinute" : "dakika",
+    "customTimeIndicatorMinutes" : "dakika",
+    "customTimeIndicatorHours" : "saat",
+    "customTimeIndicatorDays" : "gün",
+    "customTimeIndicatorMonths" : "ay",
+    "customTimeIndicatorYears" : "yıl"
+}

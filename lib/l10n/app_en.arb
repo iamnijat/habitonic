@@ -7,6 +7,8 @@
     "englishLangLocale" : "en",
     "frenchLang" : "French",
     "frenchLangLocale" : "fr",
+    "turkishLang" : "Turkish",
+    "turkishLangLocale" : "tr",
     "homePageTitle" : "Let's make it habit together 👏",
     "homeProgressBoxTitleWithLessProgress" : "Your daily goals almost done! 🔥\n\n",
     "homeProgressBoxTitleWithMoreProgress" : "You are far from your purpose! 😥\n\n",
