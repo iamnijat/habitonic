@@ -83,9 +83,6 @@ We'll handle the generation of required files for 🚀 your onboarding!
 Using this library to handle multi-languages. Follow this guide to understand and config languages files
 
 
-## Visitors Count
-<img height="30px" src = "https://profile-counter.glitch.me/vnapnic/count.svg" alt ="Loading">
-
 -------
 
 You've done entire steps correctly and I make sure that this project will have paramount effect on your progress learning `Flutter`
