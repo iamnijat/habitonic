@@ -37,7 +37,7 @@
         * locals (Database)
     * Repositories (Implementation from Domain layer)
 
-##### 6. Models (The `data model` common for domain layer and data layer)
+##### 6. Models 
     * view_models
     * router_models
 
