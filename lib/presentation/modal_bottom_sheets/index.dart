@@ -8,11 +8,10 @@ import 'package:habitonic/config/constants/durations.dart';
 import 'package:habitonic/config/constants/styles.dart';
 import 'package:habitonic/data/models/view_model/language_view_model/language_view_model.dart';
 import 'package:habitonic/presentation/widgets/index.dart';
-import 'package:modal_bottom_sheet/modal_bottom_sheet.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter_svg_provider/flutter_svg_provider.dart' as svg_provider;
 import 'package:sizer/sizer.dart';
-
+import 'dart:math' as math;
 import '../../config/constants/assets.dart';
 import '../../config/constants/palette.dart';
 import '../../core/helpers/modal_bottom_sheet_helper.dart';
@@ -23,6 +22,8 @@ import '../cubit/emojis_modal_sheet_cubit/emojis_modal_sheet_cubit.dart';
 import '../cubit/language_selection_cubit/language_selection_cubit.dart';
 import '../cubit/new_habit_modal_sheet_cubit/new_habit_modal_sheet_cubit.dart';
 import '../cubit/refresh_habits_data_modal_sheet_cubit/refresh_habits_data_modal_sheet_cubit.dart';
+import 'widgets/complete_habits_success_modal_bottom_sheet/custom_painters/bubbles_painter.dart';
+import 'widgets/complete_habits_success_modal_bottom_sheet/custom_painters/custom_done_animation_painter.dart';
 
 part 'new_habit_modal_bottom_sheet.dart';
 part 'emojis_selection_modal_bottom_sheet.dart';
@@ -55,3 +56,5 @@ part 'widgets/refresh_habits_data_modal_bottom_sheet/refresh_habits_data_modal_b
 part 'widgets/refresh_habits_data_modal_bottom_sheet/refresh_habits_data_modal_bottom_sheet_image.dart';
 part 'widgets/complete_habits_success_modal_bottom_sheet/complete_habits_success_modal_bottom_sheet_thumbnail.dart';
 part 'widgets/complete_habits_success_modal_bottom_sheet/complete_habits_success_modal_bottom_sheet_overview.dart';
+part 'widgets/complete_habits_success_modal_bottom_sheet/complete_habits_success_modal_bottom_sheet_done_animation.dart';
+part 'widgets/complete_habits_success_modal_bottom_sheet/complete_habits_success_modal_bottom_sheet_bubble_animation.dart';

@@ -1,12 +1,12 @@
 name: habitonic
 description: Habitonic - Habit Tracker
 
-publish_to: 'none'
+publish_to: "none"
 
-version: 1.0.0+3
+version: 1.0.0+6
 
 environment:
-  sdk: ">=2.16.2 <3.0.0"
+  sdk: ">=2.17.0 <3.0.0"
 
 dependencies:
   flutter:
@@ -14,22 +14,21 @@ dependencies:
   cupertino_icons: ^1.0.4
   flutter_localizations:
     sdk: flutter
-  flutter_bloc: ^8.0.1
+  flutter_bloc: ^8.1.2
   rxdart: ^0.27.3
   shared_preferences: ^2.0.15
-  flutter_svg: ^1.0.3
-  flutter_svg_provider: ^1.0.3
+  flutter_svg: ^2.0.8
+  flutter_svg_provider: ^1.0.7
   hive: ^2.2.1
   hive_flutter: ^1.1.0
   percent_indicator: ^4.0.1
   get_it: ^7.2.0
   path_provider: ^2.0.10
   equatable: ^2.0.3
-  intl: ^0.17.0
+  intl: ^0.18.0
   dartz: ^0.10.1
   fimber: ^0.6.6
   sizer: ^2.0.15
-  modal_bottom_sheet: ^2.0.1
   just_the_tooltip: ^0.0.11+2
   fading_edge_scrollview: ^2.0.1
   timeago: ^3.2.2
@@ -46,7 +45,6 @@ dev_dependencies:
 flutter_icons:
   android: "launcher_icon"
   image_path: "assets/dev/logo.png"
-  
 
 flutter:
   generate: true
@@ -74,7 +72,7 @@ flutter:
         - asset: assets/fonts/poppins/Poppins-Regular.ttf
         - asset: assets/fonts/poppins/Poppins-Bold.ttf
           weight: 700
-          
+
     - family: Noto Sans
       fonts:
         - asset: assets/fonts/noto_sans/NotoSans-Regular.ttf

@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:habitonic/config/constants/styles.dart';
-import 'package:modal_bottom_sheet/modal_bottom_sheet.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 import '../../config/constants/palette.dart';
@@ -10,7 +9,7 @@ Future showNewHabitModalBottomSheet(
   _context,
   AppLocalizations _localization,
 ) async {
-  return showMaterialModalBottomSheet(
+  return showModalBottomSheet(
     backgroundColor: AppPalette.whiteColor,
     shape: AppStyles.modalBottomSheetShapeDecorationStyle,
     enableDrag: true,
@@ -23,7 +22,7 @@ Future showEmojisSelectionModalBottomSheet(
   _context,
   AppLocalizations _localization,
 ) async {
-  return showMaterialModalBottomSheet(
+  return showModalBottomSheet(
     backgroundColor: AppPalette.whiteColor,
     shape: AppStyles.modalBottomSheetShapeDecorationStyle,
     enableDrag: true,
@@ -37,7 +36,7 @@ Future showLanguageSelectionModalBottomSheet(
   _context,
   AppLocalizations _localization,
 ) async {
-  return showMaterialModalBottomSheet(
+  return showModalBottomSheet(
     backgroundColor: AppPalette.whiteColor,
     shape: AppStyles.modalBottomSheetShapeDecorationStyle,
     enableDrag: true,
@@ -51,7 +50,7 @@ Future showRefreshHabitsConfirmationModalBottomSheet(
   _context,
   AppLocalizations _localization,
 ) async {
-  return showMaterialModalBottomSheet(
+  return showModalBottomSheet(
     backgroundColor: AppPalette.whiteColor,
     shape: AppStyles.modalBottomSheetShapeDecorationStyle,
     enableDrag: true,
@@ -65,7 +64,7 @@ Future showCompleteHabitsSuccessModalBottomSheet(
   _context,
   AppLocalizations _localization,
 ) async {
-  return showMaterialModalBottomSheet(
+  return showModalBottomSheet(
     backgroundColor: AppPalette.whiteColor,
     shape: AppStyles.modalBottomSheetShapeDecorationStyle,
     enableDrag: true,

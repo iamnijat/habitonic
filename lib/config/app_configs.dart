@@ -5,7 +5,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:habitonic/presentation/cubit/app_language_cubit/app_language_cubit.dart';
 import '../app.dart';
 import 'constants/palette.dart';
 import '../core/use_cases/use_case.dart';
@@ -33,12 +32,10 @@ abstract class AppConfigs {
       SystemChrome.setPreferredOrientations(
           [DeviceOrientation.portraitUp, DeviceOrientation.portraitDown]);
 
-      runApp(
-        BlocProvider<AppLanguageCubit>(
-          create: (context) => getIt(),
-          child: const MyApp(),
-        ),
-      );
+      runApp(MultiBlocProvider(
+        providers: DependencyInjector.instance.getGlobalBlocProviders,
+        child: const MyApp(),
+      ));
     }, (error, stackTrace) {
       Fimber.e('Error in main thread appeared. 😥',
           ex: error, stacktrace: stackTrace);

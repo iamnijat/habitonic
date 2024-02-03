@@ -31,7 +31,7 @@ class CompleteHabitsSuccessModalBottomSheetOverview extends StatelessWidget {
             textAlign: TextAlign.center,
           ),
         ),
-        const VerticalSpacer(10),
+        const VerticalSpacer(7),
         Container(
           height: AppStyles.deviceTablet ? 10.h : 7.h,
           width: 70.w,

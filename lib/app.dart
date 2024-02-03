@@ -23,7 +23,9 @@ class MyApp extends StatelessWidget {
         locale: _locale,
         initialRoute: Routes.splashPage,
         onGenerateRoute: Routes.generateRoute,
-        theme: ThemeData.light(),
+        theme: ThemeData.light(
+          useMaterial3: false,
+        ),
       );
     });
   }

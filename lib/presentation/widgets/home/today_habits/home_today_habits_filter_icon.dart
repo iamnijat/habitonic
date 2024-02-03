@@ -11,7 +11,7 @@ class HomeTodayHabitsFilterIcon extends StatelessWidget {
   Widget build(BuildContext context) {
     return AnimatedOpacity(
       opacity: _isHabitsEmpty ? 0 : 1,
-      duration: Durations.threeHundredMillisecondsDuration,
+      duration: DurationsUtil.threeHundredMillisecondsDuration,
       child: StreamBuilder<String>(
           initialData: AppStrings.desc,
           stream: _todayHabitsBloc.habitFilterStream,
@@ -24,7 +24,7 @@ class HomeTodayHabitsFilterIcon extends StatelessWidget {
               child: AnimatedContainer(
                 height: 5.5.h,
                 width: 5.5.h,
-                duration: Durations.fourHundredMillisecondsDuration,
+                duration: DurationsUtil.fourHundredMillisecondsDuration,
                 decoration: BoxDecoration(
                   color: _isFilteredDesc
                       ? AppPalette.whiteColor
@@ -47,8 +47,10 @@ class HomeTodayHabitsFilterIcon extends StatelessWidget {
     return Center(
         child: SvgPicture.asset(
       AppImages.filterIcon,
-      color:
-          _isFilteredDesc ? AppPalette.mainPurpleColor : AppPalette.whiteColor,
+      colorFilter: ColorFilter.mode(
+        _isFilteredDesc ? AppPalette.mainPurpleColor : AppPalette.whiteColor,
+        BlendMode.srcIn,
+      ),
       height: 2.h,
       width: 2.h,
     ));

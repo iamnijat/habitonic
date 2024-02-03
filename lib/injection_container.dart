@@ -1,3 +1,4 @@
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:get_it/get_it.dart';
 import 'package:habitonic/core/services/router_service/index.dart';
 import 'package:habitonic/data/data_sources/local/emojis_local_data_source/emojis_local_data_source.dart';
@@ -11,6 +12,7 @@ import 'package:habitonic/domain/use_cases/emojis_use_cases/get_all_emojis.dart'
 import 'package:habitonic/domain/use_cases/emojis_use_cases/is_emoji_duplicated.dart';
 import 'package:habitonic/domain/use_cases/habit_details_use_cases/get_habit.dart';
 import 'package:habitonic/domain/use_cases/habit_details_use_cases/get_habit_index.dart';
+import 'package:habitonic/domain/use_cases/habit_details_use_cases/update_habit.dart';
 import 'package:habitonic/domain/use_cases/habits_use_cases/clear_habits_box.dart';
 import 'package:habitonic/domain/use_cases/habits_use_cases/close_local_database.dart';
 import 'package:habitonic/domain/use_cases/habits_use_cases/get_completed_habits.dart';
@@ -18,7 +20,6 @@ import 'package:habitonic/domain/use_cases/habits_use_cases/get_filtered_habits.
 import 'package:habitonic/domain/use_cases/habits_use_cases/get_uncompleted_habits.dart';
 import 'package:habitonic/domain/use_cases/habits_use_cases/init_local_database.dart';
 import 'package:habitonic/domain/use_cases/habits_use_cases/store_habit.dart';
-import 'package:habitonic/domain/use_cases/habit_details_use_cases/update_habit.dart';
 import 'package:habitonic/presentation/bloc/today_habits_bloc/today_habits_bloc.dart';
 import 'package:habitonic/presentation/cubit/app_language_cubit/app_language_cubit.dart';
 import 'package:habitonic/presentation/cubit/emojis_modal_sheet_cubit/emojis_modal_sheet_cubit.dart';
@@ -44,6 +45,26 @@ import 'presentation/cubit/intro_page_cubit/intro_page_cubit.dart';
 import 'presentation/cubit/splash_page_cubit/splash_page_cubit.dart';
 
 final getIt = GetIt.instance;
+
+class DependencyInjector {
+  static DependencyInjector? _instance;
+
+  static DependencyInjector get instance {
+    _instance ??= DependencyInjector._init();
+    return _instance!;
+  }
+
+  late final AppLanguageCubit appLanguageCubit;
+
+  DependencyInjector._init() {
+    appLanguageCubit =
+        AppLanguageCubit(getDefaultLocale: getIt(), changeLocale: getIt());
+  }
+
+  List<BlocProvider<dynamic>> get getGlobalBlocProviders => [
+        BlocProvider<AppLanguageCubit>(create: (context) => appLanguageCubit),
+      ];
+}
 
 Future<void> setupLocator() async {
   _setupBlocs();

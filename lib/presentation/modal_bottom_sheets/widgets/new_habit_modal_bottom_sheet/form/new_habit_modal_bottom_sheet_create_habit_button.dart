@@ -15,30 +15,57 @@ class NewHabitModalBottomSheetCreateHabitButton extends StatelessWidget {
         stream: _cubit.validateForm,
         builder: (context, snapshot) {
           final _isValid = snapshot.hasData;
+
+          final isNameEmpty = _cubit.isNameEmpty;
+
+          final isEmojiEmpty = _cubit.isEmojiEmpty;
           return IgnorePointer(
-            ignoring: _checking,
+            ignoring: _checking ||
+                _isFormValid(
+                      _isValid,
+                      isNameEmpty,
+                      isEmojiEmpty,
+                    ) ==
+                    false,
             child: AnimatedContainer(
               height: AppStyles.deviceTablet ? 10.h : 7.h,
               width: 100.w,
               margin: EdgeInsets.only(bottom: 3.h),
-              duration: Durations.threeHundredMillisecondsDuration,
+              duration: DurationsUtil.threeHundredMillisecondsDuration,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(8),
-                color: _isValid
+                color: _isFormValid(
+                          _isValid,
+                          isNameEmpty,
+                          isEmojiEmpty,
+                        ) ==
+                        true
                     ? AppPalette.mainPurpleColor
                     : AppPalette.mainGreyColor,
               ),
               child: Material(
                 color: AppPalette.transparentColor,
                 child: InkWell(
-                    onTap: () => _isValid ? _cubit.createHabit(context) : null,
+                    onTap: () => _isFormValid(
+                              _isValid,
+                              isNameEmpty,
+                              isEmojiEmpty,
+                            ) ==
+                            true
+                        ? _cubit.createHabit(context)
+                        : null,
                     child: Center(
                         child: _checking
                             ? const JumpingDotsIndicator()
                             : Text(
                                 _localization
                                     .newHabitModalSheetFormCreateHabitButtonText,
-                                style: _isValid
+                                style: _isFormValid(
+                                          _isValid,
+                                          isNameEmpty,
+                                          isEmojiEmpty,
+                                        ) ==
+                                        true
                                     ? AppStyles.whiteColor14spw700NotoSans
                                     : AppStyles
                                         .mainBlackColor14spw600Montserrat,
@@ -49,6 +76,13 @@ class NewHabitModalBottomSheetCreateHabitButton extends StatelessWidget {
           );
         });
   }
+
+  bool _isFormValid(
+    bool? isFormValid,
+    bool isNameEmpty,
+    bool isEmojiEmpty,
+  ) =>
+      isFormValid == true && !isNameEmpty && !isEmojiEmpty;
 
   bool get _checking => _state == NewHabitModalBottomSheetState.checking;
 }

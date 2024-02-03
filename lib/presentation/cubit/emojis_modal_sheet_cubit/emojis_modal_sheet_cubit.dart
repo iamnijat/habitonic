@@ -39,7 +39,7 @@ class EmojisModalSheetCubit extends Cubit<EmojisModalSheetState> {
 
     _getAllEmojis(_context);
 
-    await _addDelay(Durations.twoHundredFiftyMillisecondsDuration);
+    await _addDelay(DurationsUtil.twoHundredFiftyMillisecondsDuration);
     _emittingState(EmojisModalSheetState.done);
     Fimber.d('Emojis has been fetched successfully');
   }
@@ -48,7 +48,7 @@ class EmojisModalSheetCubit extends Cubit<EmojisModalSheetState> {
     _emojisSelectionController.add(_emoji);
     _checkAddingRecentEmojis(_emoji);
 
-    await _addDelay(Durations.oneHundredMillisecondsDuration);
+    await _addDelay(DurationsUtil.oneHundredMillisecondsDuration);
     _back(_context, _emoji);
   }
 

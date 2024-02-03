@@ -11,7 +11,6 @@ import 'package:habitonic/config/constants/strings.dart';
 import 'package:habitonic/config/extensions/double_extensions.dart';
 import 'package:habitonic/config/utilities/date_format_util.dart';
 import 'package:habitonic/data/models/view_model/habit_view/habit_view_model.dart';
-import 'package:habitonic/presentation/bloc/today_habits_bloc/today_habits_bloc.dart';
 import 'package:habitonic/presentation/cubit/habit_details_cubit/habit_details_cubit.dart';
 import 'package:just_the_tooltip/just_the_tooltip.dart';
 import 'package:percent_indicator/percent_indicator.dart';

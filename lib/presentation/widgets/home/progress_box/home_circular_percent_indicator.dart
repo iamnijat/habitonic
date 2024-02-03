@@ -18,7 +18,7 @@ class HomeCircularPercentIndicator extends StatelessWidget {
       percent: _habitComparisonPercentage,
       center: AnimatedOpacity(
         opacity: _isHabitsEmpty ? 0 : 1,
-        duration: Durations.threeHundredMillisecondsDuration,
+        duration: DurationsUtil.threeHundredMillisecondsDuration,
         child: Text(
           '${_todayHabitsBloc.habitsComparisonPercentage.removeDecimals}%',
           style: AppStyles.whiteColor12spw700NotoSans,

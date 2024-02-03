@@ -17,7 +17,7 @@ class EmojisSelectionIndicator extends StatelessWidget {
             top: 3.5.h,
             child: AnimatedOpacity(
               opacity: _emojiValue == _emojiItem ? 1 : 0,
-              duration: Durations.threeHundredMillisecondsDuration,
+              duration: DurationsUtil.threeHundredMillisecondsDuration,
               child: Container(
                 padding: AppStyles.horizontalVerticalPadding(2.w, 2.w),
                 decoration: BoxDecoration(
@@ -26,7 +26,10 @@ class EmojisSelectionIndicator extends StatelessWidget {
                 child: Center(
                     child: SvgPicture.asset(
                   AppImages.whiteDoneIcon,
-                  color: AppPalette.whiteColor,
+                  colorFilter: const ColorFilter.mode(
+                    AppPalette.whiteColor,
+                    BlendMode.srcIn,
+                  ),
                   height: 1.5.w,
                   width: 1.5.w,
                 )),

@@ -26,23 +26,22 @@ class _RefreshHabitsDataModalBottomSheetBody extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-        controller: ModalScrollController.of(context),
         child: Material(
-          type: MaterialType.transparency,
-          child: BlocBuilder<RefreshHabitsDataModalSheetCubit,
-              RefreshHabitsDataModalSheetState>(builder: (context, state) {
-            final _cubit = context.read<RefreshHabitsDataModalSheetCubit>();
-            if (state == RefreshHabitsDataModalSheetState.error) {
-              return ErrorBody(_localization);
-            }
-            return Padding(
-              padding: AppStyles.horizontalVerticalPadding(6.w, 5.h),
-              child: Column(children: <Widget>[
-                RefreshHabitsDataModalBottomSheetOverview(
-                    _cubit, state, _localization),
-              ]),
-            );
-          }),
-        ));
+      type: MaterialType.transparency,
+      child: BlocBuilder<RefreshHabitsDataModalSheetCubit,
+          RefreshHabitsDataModalSheetState>(builder: (context, state) {
+        final _cubit = context.read<RefreshHabitsDataModalSheetCubit>();
+        if (state == RefreshHabitsDataModalSheetState.error) {
+          return ErrorBody(_localization);
+        }
+        return Padding(
+          padding: AppStyles.horizontalVerticalPadding(6.w, 5.h),
+          child: Column(children: <Widget>[
+            RefreshHabitsDataModalBottomSheetOverview(
+                _cubit, state, _localization),
+          ]),
+        );
+      }),
+    ));
   }
 }

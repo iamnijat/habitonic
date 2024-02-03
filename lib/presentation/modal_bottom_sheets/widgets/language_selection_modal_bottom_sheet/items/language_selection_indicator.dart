@@ -15,7 +15,7 @@ class LanguageSelectionIndicator extends StatelessWidget {
           final _code = snapshot.data;
           return AnimatedOpacity(
             opacity: _code == _languageCode ? 1 : 0,
-            duration: Durations.threeHundredMillisecondsDuration,
+            duration: DurationsUtil.threeHundredMillisecondsDuration,
             child: Container(
               padding: AppStyles.horizontalVerticalPadding(3.w, 3.w),
               decoration: BoxDecoration(
@@ -24,7 +24,10 @@ class LanguageSelectionIndicator extends StatelessWidget {
               child: Center(
                   child: SvgPicture.asset(
                 AppImages.whiteDoneIcon,
-                color: AppPalette.whiteColor,
+                colorFilter: const ColorFilter.mode(
+                  AppPalette.whiteColor,
+                  BlendMode.srcIn,
+                ),
                 height: 2.w,
                 width: 2.w,
               )),

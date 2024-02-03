@@ -45,7 +45,7 @@ class HabitDetailsCubit extends Cubit<HabitDetailsState> {
   void refreshHabit(BuildContext _context, int _index) async {
     final _localization = AppLocalizations.of(_context)!;
     _emittingState(HabitDetailsState.loading);
-    await _addDelay(Durations.oneSecondDuration);
+    await _addDelay(DurationsUtil.oneSecondDuration);
     _refreshAllRepeatIndicators();
     final result = updateHabit(Params(index: _index, model: _getHabitModel()));
 

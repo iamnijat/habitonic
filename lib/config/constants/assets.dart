@@ -5,7 +5,6 @@ abstract class AppImages {
   static const introImage = 'assets/images/intro_image.svg';
   static const noHabitsImage = 'assets/images/no_habits_image.svg';
   static const errorImage = 'assets/images/error_image.svg';
-  static const successImage = 'assets/images/success_image.svg';
   static const logo = 'assets/dev/logo.png';
 
   /// Icons

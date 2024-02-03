@@ -36,14 +36,14 @@ class LanguageSelectionCubit extends Cubit<LanguageSelectionState> {
     }
     _addDefaultLangCode(_langCode);
 
-    await _addDelay(Durations.oneHundredMillisecondsDuration);
+    await _addDelay(DurationsUtil.oneHundredMillisecondsDuration);
     _emittingState(LanguageSelectionState.done);
     Fimber.d('Languages has been fetched successfully');
   }
 
   void selectLanguage(String _languageCode, BuildContext _context) async {
     _languageSelectionController.add(_languageCode);
-    await _addDelay(Durations.oneHundredMillisecondsDuration);
+    await _addDelay(DurationsUtil.oneHundredMillisecondsDuration);
     _back(_context, _languageCode);
   }
 

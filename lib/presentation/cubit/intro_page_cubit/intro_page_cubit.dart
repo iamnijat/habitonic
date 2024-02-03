@@ -28,7 +28,7 @@ class IntroPageCubit extends Cubit<IntroPageState> {
     final result = await storeIntroPageSeen(NoParams());
 
     if (result.isSuccess()) {
-      await _addDelay(Durations.oneSecondDuration);
+      await _addDelay(DurationsUtil.oneSecondDuration);
       _navigateToHomePage(_context);
     } else if (result.isError()) {
       emit(IntroPageState.error);

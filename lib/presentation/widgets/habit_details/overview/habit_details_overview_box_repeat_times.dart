@@ -18,7 +18,7 @@ class HabitDetailsOverviewBoxRepeatTimes extends StatelessWidget {
             builder: (context, snapshot) {
               final _doneRepeatTimes = snapshot.data;
               return AnimatedSwitcher(
-                  duration: Durations.twoHundredFiftyMillisecondsDuration,
+                  duration: DurationsUtil.twoHundredFiftyMillisecondsDuration,
                   transitionBuilder:
                       (Widget child, Animation<double> animation) =>
                           ScaleTransition(

@@ -36,8 +36,8 @@ class NewHabitModalBottomSheetRepeatNumbers extends StatelessWidget {
                             child: AnimatedContainer(
                               height: 4.5.h,
                               width: 4.5.h,
-                              duration:
-                                  Durations.twoHundredFiftyMillisecondsDuration,
+                              duration: DurationsUtil
+                                  .twoHundredFiftyMillisecondsDuration,
                               decoration: BoxDecoration(
                                   color: _isSelected
                                       ? AppPalette.mainPurpleColor
@@ -50,7 +50,7 @@ class NewHabitModalBottomSheetRepeatNumbers extends StatelessWidget {
                                   shape: BoxShape.circle),
                               child: Center(
                                 child: AnimatedSwitcher(
-                                  duration: Durations
+                                  duration: DurationsUtil
                                       .twoHundredFiftyMillisecondsDuration,
                                   transitionBuilder: (Widget child,
                                           Animation<double> animation) =>

@@ -29,7 +29,7 @@ class RefreshHabitsDataModalSheetCubit
     final result = await clearHabitsBox(NoParams());
 
     if (result.isSuccess()) {
-      await _addDelay(Durations.oneSecondDuration);
+      await _addDelay(DurationsUtil.oneSecondDuration);
       _emittingState(RefreshHabitsDataModalSheetState.done);
 
       back(_context, result: true);

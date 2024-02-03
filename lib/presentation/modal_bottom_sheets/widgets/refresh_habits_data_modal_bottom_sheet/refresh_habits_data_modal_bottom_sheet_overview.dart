@@ -37,7 +37,7 @@ class RefreshHabitsDataModalBottomSheetOverview extends StatelessWidget {
             height: AppStyles.deviceTablet ? 10.h : 7.h,
             width: 100.w,
             margin: EdgeInsets.only(bottom: 2.h),
-            duration: Durations.threeHundredMillisecondsDuration,
+            duration: DurationsUtil.threeHundredMillisecondsDuration,
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(8),
               color: AppPalette.mainBlueColor,

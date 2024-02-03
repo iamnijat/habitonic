@@ -13,7 +13,7 @@ class HabitDetailsOverviewBoxCurrentStreak extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: <Widget>[
         AnimatedSwitcher(
-          duration: Durations.twoHundredFiftyMillisecondsDuration,
+          duration: DurationsUtil.twoHundredFiftyMillisecondsDuration,
           transitionBuilder: (Widget child, Animation<double> animation) =>
               ScaleTransition(
             scale: animation,

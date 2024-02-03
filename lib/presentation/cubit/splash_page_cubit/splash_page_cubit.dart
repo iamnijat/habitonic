@@ -51,7 +51,7 @@ class SplashPageCubit extends Cubit<SplashPageState> {
   void _navigateToHomePage(BuildContext _context) =>
       _navigation.openHomePage(_context);
 
-  _addDelay() async => await Future.delayed(Durations.twoSecondsDuration);
+  _addDelay() async => await Future.delayed(DurationsUtil.twoSecondsDuration);
 
   void _emittingState(SplashPageState _state) => emit(_state);
 }

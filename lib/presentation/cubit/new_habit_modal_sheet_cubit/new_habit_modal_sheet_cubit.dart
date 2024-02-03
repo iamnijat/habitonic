@@ -32,8 +32,8 @@ class NewHabitModalBottomSheetCubit
   List<RecentEmojisViewModel> recentEmojis = [];
 
   /// RxDart Stream Controllers
-  final _habitNameController = BehaviorSubject<String>();
-  final _habitEmojiController = BehaviorSubject<String>();
+  final _habitNameController = BehaviorSubject<String>.seeded('');
+  final _habitEmojiController = BehaviorSubject<String>.seeded('');
   final _generatedRepeatNumbersController =
       BehaviorSubject<List<int>>.seeded([1, 2, 3, 4]);
   final _habitRepetitionController = BehaviorSubject<int>.seeded(1);
@@ -60,7 +60,7 @@ class NewHabitModalBottomSheetCubit
     final result = storeHabit(_model);
 
     if (result.isSuccess()) {
-      await _addDelay(Durations.oneSecondDuration);
+      await _addDelay(DurationsUtil.oneSecondDuration);
       _emittingState(NewHabitModalBottomSheetState.done);
 
       Fimber.d('New habit was added successfully');
@@ -73,6 +73,7 @@ class NewHabitModalBottomSheetCubit
 
   void updateHabitName(String _habitName) {
     if (_checkEmptyFormField(_habitName)) {
+      _habitNameController.add('');
       _addErrorCase();
     } else {
       _habitNameController.add(_habitName);
@@ -154,6 +155,13 @@ extension NewHabitModalBottomSheetCubitGeneratedRepeatNumbersControllerRxExtensi
   Stream<List<int>> get numbersStream =>
       _generatedRepeatNumbersController.stream;
   List<int> get _numbersValue => _generatedRepeatNumbersController.value;
+}
+
+/// Text Validation
+extension NewHabitModalBottomSheetCubitGeneratedRepeatNumbersControllerRxE
+    on NewHabitModalBottomSheetCubit {
+  bool get isNameEmpty => _habitNameValue.isEmpty;
+  bool get isEmojiEmpty => _habitEmojiValue.isEmpty;
 }
 
 extension NewHabitModalBottomSheetCubitCombineControllersRxExtension

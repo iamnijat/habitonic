@@ -12,7 +12,7 @@ abstract class EmojisUtil {
     await DefaultAssetBundle.of(context)
         .loadString('assets/i18n/emojis.json')
         .then((value) {
-      /// we use await here because the loading of jsons can take time
+      /// we use await here because the loading of json can take time
       _iterableData = _convertJsonValueToIterable(value);
       _emojisList = _convertMapToList(_iterableData);
     });
