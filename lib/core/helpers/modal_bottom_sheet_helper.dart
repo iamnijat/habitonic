@@ -13,6 +13,7 @@ Future showNewHabitModalBottomSheet(
     backgroundColor: AppPalette.whiteColor,
     shape: AppStyles.modalBottomSheetShapeDecorationStyle,
     enableDrag: true,
+    isScrollControlled: true,
     context: _context,
     builder: (BuildContext context) => NewHabitModalBottomSheet(_localization),
   );
@@ -26,6 +27,7 @@ Future showEmojisSelectionModalBottomSheet(
     backgroundColor: AppPalette.whiteColor,
     shape: AppStyles.modalBottomSheetShapeDecorationStyle,
     enableDrag: true,
+    isScrollControlled: true,
     context: _context,
     builder: (BuildContext context) =>
         EmojisSelectionModalBottomSheet(_localization),
@@ -40,6 +42,7 @@ Future showLanguageSelectionModalBottomSheet(
     backgroundColor: AppPalette.whiteColor,
     shape: AppStyles.modalBottomSheetShapeDecorationStyle,
     enableDrag: true,
+    isScrollControlled: true,
     context: _context,
     builder: (BuildContext context) =>
         LanguageSelectionModalBottomSheet(_localization),
@@ -54,6 +57,7 @@ Future showRefreshHabitsConfirmationModalBottomSheet(
     backgroundColor: AppPalette.whiteColor,
     shape: AppStyles.modalBottomSheetShapeDecorationStyle,
     enableDrag: true,
+    isScrollControlled: true,
     context: _context,
     builder: (BuildContext context) =>
         RefreshHabitsDataModalBottomSheet(_localization),
@@ -68,6 +72,7 @@ Future showCompleteHabitsSuccessModalBottomSheet(
     backgroundColor: AppPalette.whiteColor,
     shape: AppStyles.modalBottomSheetShapeDecorationStyle,
     enableDrag: true,
+    isScrollControlled: true,
     context: _context,
     builder: (BuildContext context) =>
         CompleteHabitsSuccessModalBottomSheet(_localization),

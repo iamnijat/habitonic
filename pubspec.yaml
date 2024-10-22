@@ -3,7 +3,7 @@ description: Habitonic - Habit Tracker
 
 publish_to: "none"
 
-version: 1.0.0+6
+version: 1.0.0+8
 
 environment:
   sdk: ">=2.17.0 <3.0.0"
