@@ -8,7 +8,7 @@ import 'package:habitonic/core/helpers/modal_bottom_sheet_helper.dart';
 import 'package:habitonic/data/models/view_model/habit_view/habit_view_model.dart';
 import 'package:habitonic/domain/use_cases/habit_details_use_cases/get_habit.dart';
 import 'package:rxdart/rxdart.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:habitonic/l10n/app_localizations.dart';
 import '../../../config/utilities/parts_of_day_util.dart';
 import '../../../core/services/router_service/index.dart';
 import '../../../domain/use_cases/habit_details_use_cases/update_habit.dart';

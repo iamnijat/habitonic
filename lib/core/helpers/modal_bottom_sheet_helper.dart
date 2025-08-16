@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:habitonic/config/constants/styles.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:habitonic/l10n/app_localizations.dart';
 
 import '../../config/constants/palette.dart';
 import '../../presentation/modal_bottom_sheets/index.dart';

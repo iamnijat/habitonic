@@ -1,5 +1,5 @@
 import 'package:timeago/timeago.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:habitonic/l10n/app_localizations.dart';
 import 'custom_time_ago_localization_messages.dart';
 
 class TimeAgoUtil {

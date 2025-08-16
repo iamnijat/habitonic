@@ -6,7 +6,7 @@ import 'package:habitonic/data/models/router_model/habit_details_page_arguments_
 import 'package:habitonic/presentation/bloc/today_habits_bloc/today_habits_bloc.dart';
 import 'package:habitonic/presentation/cubit/splash_page_cubit/splash_page_cubit.dart';
 import 'package:habitonic/presentation/widgets/index.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:habitonic/l10n/app_localizations.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:sizer/sizer.dart';
 import '../../config/constants/assets.dart';

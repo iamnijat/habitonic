@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:habitonic/core/services/router_service/index.dart';
+import 'package:habitonic/l10n/app_localizations.dart';
 import 'package:habitonic/presentation/cubit/app_language_cubit/app_language_cubit.dart';
 import 'package:sizer/sizer.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);

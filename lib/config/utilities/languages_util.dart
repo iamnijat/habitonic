@@ -1,4 +1,4 @@
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:habitonic/l10n/app_localizations.dart';
 import '../../config/constants/assets.dart';
 import '../../data/models/view_model/language_view_model/language_view_model.dart';
 

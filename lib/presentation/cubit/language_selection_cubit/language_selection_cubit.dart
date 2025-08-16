@@ -7,7 +7,7 @@ import 'package:habitonic/config/constants/durations.dart';
 import 'package:habitonic/config/utilities/languages_util.dart';
 import 'package:habitonic/data/models/view_model/language_view_model/language_view_model.dart';
 import 'package:rxdart/rxdart.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:habitonic/l10n/app_localizations.dart';
 
 import '../../../core/services/router_service/index.dart';
 import '../../../injection_container.dart';

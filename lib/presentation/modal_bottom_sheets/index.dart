@@ -8,7 +8,7 @@ import 'package:habitonic/config/constants/durations.dart';
 import 'package:habitonic/config/constants/styles.dart';
 import 'package:habitonic/data/models/view_model/language_view_model/language_view_model.dart';
 import 'package:habitonic/presentation/widgets/index.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:habitonic/l10n/app_localizations.dart';
 import 'package:flutter_svg_provider/flutter_svg_provider.dart' as svg_provider;
 import 'package:sizer/sizer.dart';
 import 'dart:math' as math;

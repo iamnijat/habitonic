@@ -15,7 +15,7 @@ import 'package:habitonic/presentation/cubit/habit_details_cubit/habit_details_c
 import 'package:just_the_tooltip/just_the_tooltip.dart';
 import 'package:percent_indicator/percent_indicator.dart';
 import 'package:sizer/sizer.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:habitonic/l10n/app_localizations.dart';
 
 import '../../config/constants/assets.dart';
 import '../../config/constants/palette.dart';
